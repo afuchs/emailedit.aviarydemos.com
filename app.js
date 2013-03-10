@@ -1,6 +1,13 @@
 var UPLOADS_DIR = './public/uploads';
 var ROOT_URL = 'http://asnt.localtunnel.me';
 
+var config = {
+  sengridUser: process.env.SENDGRID_USER,
+  sendgridKey: process.env.SENDGRID_PASSWORD,
+  aviaryKey: process.env.AVIARY_KEY,
+  aviarySecret: process.env.AVIARY_SECRET
+}
+
 var express = require('express')
   , port = process.env.PORT || 8000
   , user = require('./routes/user')
