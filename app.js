@@ -1,5 +1,5 @@
 var UPLOADS_DIR = './public/uploads';
-var ROOT_URL = 'http://asnt.localtunnel.me';
+var ROOT_URL = 'http://morning-tundra-1770.herokuapp.com';
 
 var config = {
   sengridUser: process.env.SENDGRID_USER,
